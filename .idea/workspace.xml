@@ -1,0 +1,978 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1bcb2410-8425-4971-876d-acb7c3a7844a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../DesignPattern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPattern/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPattern/DesignPattern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPattern/src/abstractmethod/GoHome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPattern/src/abstractmethod/GoHomeByBus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPattern/src/abstractmethod/GoHomeByTrain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPattern/src/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPattern/src/command/MacroCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPattern/src/drawer/ColorCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPattern/src/drawer/DrawCanvas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPattern/src/drawer/DrawCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPattern/src/drawer/Drawable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPattern/src/drawer/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPattern/src/factory/method/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPattern/src/factory/method/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPattern/src/factory/method/PhoneFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPattern/src/factory/method/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPattern/src/factory/simple/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPattern/src/factory/simple/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPattern/src/factory/simple/PhoneFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPattern/src/factory/visitor/Dictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPattern/src/factory/visitor/Element.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPattern/src/factory/visitor/File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPattern/src/factory/visitor/FileFindVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPattern/src/factory/visitor/ListVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPattern/src/factory/visitor/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPattern/src/factory/visitor/Visitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Niuke/Niuke.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../alarm/src/main/java/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../alarm/src/main/java/com/wcm/alarm/aware/ApplicationContextContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../alarm/src/main/java/com/wcm/alarm/config/TaskExecutePool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../alarm/src/main/java/com/wcm/alarm/controller/AlarmController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../alarm/src/main/java/com/wcm/alarm/controller/PoliceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../alarm/src/main/java/com/wcm/alarm/entity/PoliceEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../alarm/src/main/java/com/wcm/alarm/entity/PoliceNowAddrEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../alarm/src/main/java/com/wcm/alarm/event/AlarmEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../alarm/src/main/java/com/wcm/alarm/event/EventMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../alarm/src/main/java/com/wcm/alarm/event/listener/AlarmListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../alarm/src/main/java/com/wcm/alarm/event/publish/AlarmPublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../alarm/src/main/java/com/wcm/alarm/repository/PoliceNowAddrRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../alarm/src/main/java/com/wcm/alarm/repository/PoliceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../alarm/src/main/java/com/wcm/alarm/service/AlarmService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../alarm/src/main/java/com/wcm/alarm/service/PoliceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../alarm/src/main/java/com/wcm/alarm/util/Paramter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../alarm/src/main/java/com/wcm/alarm/util/PushUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../alarm/src/main/java/com/wcm/alarm/util/ReturnUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../alarm/src/main/java/com/wcm/alarm/vo/PoliceVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../alarm/src/main/java/com/wcm/alarm/vo/UserVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c/ds/.idea/ds.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c/ustc/.idea/ustc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c/ustc/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_6_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/master/src/main/java/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/master/src/main/java/com/ustc/master/controller/UulController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/master/src/main/java/com/ustc/master/entity/AllUrlsEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/master/src/main/java/com/ustc/master/entity/DoneUrlsEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/master/src/main/java/com/ustc/master/entity/UndoUrlsEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/master/src/main/java/com/ustc/master/repository/AllUrlsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/master/src/main/java/com/ustc/master/repository/DoneUrlsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/master/src/main/java/com/ustc/master/repository/UndoUrlsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/master/src/main/java/com/ustc/master/service/AllUrlsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/master/src/main/java/com/ustc/master/service/DoneUrlsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/master/src/main/java/com/ustc/master/service/UndoUrlsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/master/src/main/java/com/ustc/master/spider/IPSpider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/master/src/main/java/com/ustc/master/spider/UrlSpider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slave/slave.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dongliu/dongliu.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dos/dos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doss/doss.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello/hello.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello/src/main/java/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello/src/main/java/com/test/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello/src/main/java/com/test/CarFactoryBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello/src/main/java/com/test/MyApplicationContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello/src/main/resources/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ioc/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ioc/src/annotation/Autowire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ioc/src/annotation/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ioc/src/core/IOCContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ioc/src/init/Init.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ioc/src/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ioc/src/test/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jamesmvc/jamesmvc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jamesmvc/src/main/java/com/enjoy/james/annotation/EnjoyAutowired.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jamesmvc/src/main/java/com/enjoy/james/annotation/EnjoyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jamesmvc/src/main/java/com/enjoy/james/annotation/EnjoyRequestMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jamesmvc/src/main/java/com/enjoy/james/annotation/EnjoyRequestParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jamesmvc/src/main/java/com/enjoy/james/annotation/EnjoyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jamesmvc/src/main/java/com/enjoy/james/controller/JamesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jamesmvc/src/main/java/com/enjoy/james/service/JamesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jamesmvc/src/main/java/com/enjoy/james/service/JamesServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jamesmvc/src/main/java/com/enjoy/james/servlet/DispatcherServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jamesmvc/src/main/wabapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/.idea/java8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/java8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/src/cn/C1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/src/cn/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mfw/.idea/mfw.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mfw/mfw.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ml/work1/.idea/work1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ml/work1/home2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ml/work1/huiwen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ml/work1/myIndex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ml/work1/spider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scfchapter1/es/es.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scfchapter1/scfchapter1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../source/src/main/java/com/ustc/source/entity/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../source/src/main/java/com/ustc/source/repository/ItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../source/src/main/java/com/ustc/source/service/ItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spider/spider.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstudy/src/main/java/com/spring/controller/T.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springstudy/src/main/java/com/spring/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stock-spider/src/main/java/com/zr/entity/Singer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stock-spider/src/main/java/com/zr/repository/SingerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stock-spider/src/main/java/com/zr/spider/SingersSpider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread-study/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread-study/src/atomic/array/ArrayAtomicProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread-study/src/atomic/array/ArrayCloneProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread-study/src/atomic/integer/IntegerFieldUpdater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread-study/src/atomic/integer/TestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread-study/src/atomic/intunaryoperator/IntUnaryOperatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread-study/src/atomic/markable/MarkableReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread-study/src/synchronizedd/TestSynchronized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread-study/src/unsafe/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread-study/src/volitationtest/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread-study/thread-study.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../travel-spider/src/main/java/com/ustc/util/GetRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/untitled1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webappstudy/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webappstudy/webappstudy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-spider/xc-spider.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc/xc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ymm/ymm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../深度学习/nlp/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../深度学习/nlp/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../深度学习/nlp/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../深度学习/nlp/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../深度学习/nlp/.idea/nlp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../深度学习/nlp/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../深度学习/nlp/exploring_word_vectors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../深度学习/nlp/simplesvd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../深度学习/nlp/svd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../深度学习/work2/.idea/work2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../深度学习/work2/MyRadio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../深度学习/work2/MyWindow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../深度学习/work2/leetcode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../深度学习/work2/suanfa1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../深度学习/work2/t.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../深度学习/work2/tkinter1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../深度学习/work2/tkinter2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../深度学习/work2/work3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../深度学习/work2/work4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../深度学习/work2/work5.py" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/master/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="sina@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="sina@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="sina@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="sina: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/master/src/main/java/com/ustc/master/spider/IPSpider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/master/src/main/java/com/ustc/master/spider/UrlSpider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/net/Proxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="92" column="17" selection-start-line="92" selection-start-column="11" selection-end-line="92" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6327">
+              <caret line="333" column="10" selection-start-line="333" selection-start-column="5" selection-end-line="333" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/master/src/main/java/com/ustc/master/MasterApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="101">
+              <caret line="30" column="211" lean-forward="true" selection-start-line="30" selection-start-column="211" selection-end-line="30" selection-end-column="211" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/master/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="126" selection-start-line="12" selection-start-column="126" selection-end-line="12" selection-end-column="126" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/net/dongliu/requests/5.0.7/requests-5.0.7.jar!/net/dongliu/requests/RequestBuilder.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="34" column="20" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/master/src/main/java/com/ustc/master/service/UndoUrlsService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="69" column="17" lean-forward="true" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="class#655:1516" />
+                <element signature="e#729#730#0" expanded="true" />
+                <element signature="e#769#770#0" expanded="true" />
+                <element signature="e#831#832#0" expanded="true" />
+                <element signature="e#871#872#0" expanded="true" />
+                <element signature="e#932#933#0" expanded="true" />
+                <element signature="e#972#973#0" expanded="true" />
+                <element signature="e#1031#1032#0" expanded="true" />
+                <element signature="e#1074#1075#0" expanded="true" />
+                <element signature="e#1134#1135#0" expanded="true" />
+                <element signature="e#1177#1178#0" expanded="true" />
+                <element signature="e#1248#1249#0" expanded="true" />
+                <element signature="e#1291#1292#0" expanded="true" />
+                <element signature="e#1352#1353#0" expanded="true" />
+                <element signature="e#1395#1396#0" expanded="true" />
+                <element signature="e#1461#1462#0" expanded="true" />
+                <element signature="e#1505#1506#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.2.0.RELEASE/spring-data-commons-2.2.0.RELEASE.jar!/org/springframework/data/domain/PageRequest.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="15" column="34" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>userAgent</find>
+      <find>Proxy(</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/slave/pom.xml" />
+        <option value="$PROJECT_DIR$/slave/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/master/pom.xml" />
+        <option value="$PROJECT_DIR$/master/src/main/java/com/ustc/master/spider/IPSpider.java" />
+        <option value="$PROJECT_DIR$/master/src/main/java/com/ustc/master/entity/Entity.java" />
+        <option value="$PROJECT_DIR$/master/src/main/java/com/ustc/master/repository/DoneUrls.java" />
+        <option value="$PROJECT_DIR$/master/src/main/java/com/ustc/master/repository/DoneUrlsRepository.java" />
+        <option value="$PROJECT_DIR$/master/src/main/java/com/ustc/master/repository/AllUrls.java" />
+        <option value="$PROJECT_DIR$/master/src/main/java/com/ustc/master/repository/UndoUrlsRepository.java" />
+        <option value="$PROJECT_DIR$/master/src/main/java/com/ustc/master/service/DoneUrlsService.java" />
+        <option value="$PROJECT_DIR$/master/src/main/java/com/ustc/master/repository/AllUrlsRepository.java" />
+        <option value="$PROJECT_DIR$/master/src/main/java/com/ustc/master/service/AllUrlsService.java" />
+        <option value="$PROJECT_DIR$/master/src/main/java/com/ustc/master/service/UndoUrlsService.java" />
+        <option value="$PROJECT_DIR$/master/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/master/src/main/java/com/ustc/master/MasterApplication.java" />
+        <option value="$PROJECT_DIR$/master/src/main/java/com/ustc/master/spider/UrlSpider.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="F:/apache-maven-3.6.0-bin/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="F:\apache-maven-3.6.0-bin\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="950" />
+    <option name="width" value="980" />
+    <option name="height" value="1090" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="distribute-spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distribute-spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distribute-spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distribute-spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distribute-spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distribute-spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="master" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distribute-spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="master" type="462c0819:PsiDirectoryNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distribute-spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distribute-spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="slave" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distribute-spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="slave" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distribute-spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="slave" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distribute-spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="slave" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="JPA.DatabaseSchemaImportDialog" value="605251f8-05e8-4f93-8c01-f97c45fb50df" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="F:/android/sdk-tools-windows-3859397" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572188254699" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8.0_191" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="com.ustc.master.entity" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MasterApplication">
+    <configuration name="MasterApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ustc.master.MasterApplication" />
+      <module name="master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ustc.master.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MasterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="master" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ustc.master.MasterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MasterApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1bcb2410-8425-4971-876d-acb7c3a7844a" name="Default Changelist" comment="" />
+      <created>1572170678263</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572170678263</updated>
+      <workItem from="1572170683749" duration="14059000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="14059000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Persistence" sideWeight="0.50117093" side_tool="true" weight="0.25938338" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49882904" visible="true" weight="0.25938338" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.3297587" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.15683647" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" weight="0.3297587" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/slave/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jpa-study/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slave/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/master/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/io/InputStreamReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="70" column="11" selection-start-line="70" selection-start-column="11" selection-end-line="70" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/master/src/main/java/com/ustc/master/controller/UulController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/master/src/main/java/com/ustc/master/entity/Entity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/605251f8-05e8-4f93-8c01-f97c45fb50df/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/master/src/main/java/com/ustc/master/entity/AllUrlsEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/master/src/main/java/com/ustc/master/repository/DoneUrlsRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/master/src/main/java/com/ustc/master/repository/UndoUrlsRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/master/src/main/java/com/ustc/master/entity/DoneUrlsEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/master/src/main/java/com/ustc/master/service/DoneUrlsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/master/src/main/java/com/ustc/master/repository/AllUrlsRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Optional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="132" column="13" selection-start-line="132" selection-start-column="13" selection-end-line="132" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/master/src/main/java/com/ustc/master/service/AllUrlsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.2.0.RELEASE/spring-data-commons-2.2.0.RELEASE.jar!/org/springframework/data/domain/PageRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/master/src/main/java/com/ustc/master/service/UndoUrlsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="69" column="17" lean-forward="true" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#655:1516" />
+            <element signature="e#729#730#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
+            <element signature="e#1031#1032#0" expanded="true" />
+            <element signature="e#1074#1075#0" expanded="true" />
+            <element signature="e#1134#1135#0" expanded="true" />
+            <element signature="e#1177#1178#0" expanded="true" />
+            <element signature="e#1248#1249#0" expanded="true" />
+            <element signature="e#1291#1292#0" expanded="true" />
+            <element signature="e#1352#1353#0" expanded="true" />
+            <element signature="e#1395#1396#0" expanded="true" />
+            <element signature="e#1461#1462#0" expanded="true" />
+            <element signature="e#1505#1506#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/dongliu/requests/5.0.7/requests-5.0.7.jar!/net/dongliu/requests/RequestBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="34" column="20" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/master/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="126" selection-start-line="12" selection-start-column="126" selection-end-line="12" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/master/src/main/java/com/ustc/master/spider/IPSpider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/net/Proxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="92" column="17" selection-start-line="92" selection-start-column="11" selection-end-line="92" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/master/src/main/java/com/ustc/master/MasterApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="30" column="211" lean-forward="true" selection-start-line="30" selection-start-column="211" selection-end-line="30" selection-end-column="211" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6327">
+          <caret line="333" column="10" selection-start-line="333" selection-start-column="5" selection-end-line="333" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="168" column="14" selection-start-line="168" selection-start-column="14" selection-end-line="168" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/master/src/main/java/com/ustc/master/spider/UrlSpider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8.0_191</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>slave</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>Android API 28 Platform</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
